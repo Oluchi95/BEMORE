@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+}
+
+h1 span{
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+h1::after{
+    content: "";
+    width: 200px;
+    height: 5px;
+    background-color: #06068f;
+    position: absolute;
+    bottom: 0;
+    left: 10;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.container .animal{
+    height: 300px;
+    width: 31%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    background-color: #000000;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container .animal p{
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+}
+
+.container .animal:hover {
+    border: 15px solid #06068f;
+}
+
+.Whatsapp{
+    width: 15%;
+    height: 50px; 
+    background-color: #ffffff;
+    position: fixed;
+    text-align: center;
+    right: 50px;
+    bottom: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px #000000;
+    cursor: pointer;
+}
+.Whatsapp:hover{
+    background-color: powderblue;
+}
+
+.container .animal:hover p{
+    display: block;
+}
+
+.one{
+    background-image: url(https://i.pinimg.com/736x/14/d5/d3/14d5d38bf159ce81b06f877e2d21bcae.jpg);
+}
+
+.two{
+    background-image: url(https://i.ytimg.com/vi/8BYa0U1h5Fs/hqdefault.jpg);
+}
+
+.three{
+    background-image: url(https://i.ytimg.com/vi/9NtRJW2dpvo/maxresdefault.jpg);
+}
+
+.four{
+    background-image: url(https://media.istockphoto.com/photos/guinea-pig-over-white-picture-id139666010?k=20&m=139666010&s=612x612&w=0&h=ImL0poWOlNrqzTNqe9Fgk2fbW_iVln9iKiSHRxCkILk=);
+}
+
+.five{
+    background-image: url(https://media.istockphoto.com/photos/scottish-fold-shorthair-cat-resting-on-chair-picture-id468382096?b=1&k=20&m=468382096&s=170667a&w=0&h=By7iGbV7dVscBWiMCsZt_zuIX6nOfqmDqhKq8oR2Rq8=);
+}
+
+.six{
+    background-image: url(https://media.istockphoto.com/photos/brown-pedigree-horse-picture-id521697371?b=1&k=20&m=521697371&s=170667a&w=0&h=Uq-hXHM2k1M0W56TNcpJNKy4REPOlhSjsolS1tEh8IA=);
+}
+
+.seven{
+    background-image: url(https://media.istockphoto.com/photos/beige-hamster-picture-id675804830?k=20&m=675804830&s=612x612&w=0&h=LW56l-8Ox0TePlObkckkhnenmLday6Wpjuth9QXXfec=);
+}
+
+.eight{
+    background-image: url(https://media.istockphoto.com/photos/rat-picture-id454439027?b=1&k=20&m=454439027&s=170667a&w=0&h=gzvjTLN9j7a0UGbGQLnITULd_InEg4TLfO_LPIHvBUw=);
+}
+
+.nine{
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/12/01/08/mouse-1733265__340.jpg);
+}
+
+.ten{
+    background-image: url(https://as1.ftcdn.net/v2/jpg/01/99/35/52/1000_F_199355285_Y0P239jfdROjbL0eHsoh3tsi1pfFmLcA.jpg);
+}
+
+.eleven{
+    background-image: url(https://w0.peakpx.com/wallpaper/545/323/HD-wallpaper-cute-panda-in-hammock-pretty-little-bear-beautiful-adorable-hammock-small-animal-sweet-panda-painting-art-lovely-joy-leaf-cute-funny.jpg);
+}
+
+.twelve{
+    background-image: url(https://st2.depositphotos.com/1703608/7510/i/600/depositphotos_75105091-stock-photo-portrait-of-a-curious-young.jpg);
+}
+
+.thirteen{
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-b6b4328a5ac56c684fc9c173cafb7fe3-lq);
+}
+
+.fourteen{
+    background-image: url(https://image.shutterstock.com/image-photo/chameleon-close-up-multicolor-beautiful-260nw-1346563901.jpg);
+}
+
+.fifteen{
+    background-image: url(https://i.ytimg.com/vi/GW9waHkwoVw/maxresdefault.jpg);
+}
+
+.sixteen{
+    background-image: url(https://i.pinimg.com/564x/1b/dc/b2/1bdcb294f73e8d1517ee5809efcc6c07--lion-photography-baby-lions.jpg);
+}
+
+.seventeen{
+    background-image: url(https://149366112.v2.pressablecdn.com/wp-content/uploads/2020/09/shutterstock_556381594-scaled.jpg);
+}
+
+.eighteen{
+    background-image: url(https://media.istockphoto.com/photos/lamb-grazing-on-green-grass-meadow-picture-id665494268?k=20&m=665494268&s=612x612&w=0&h=UVKg7Njyx2zGawX422L52uyl5y32EUluuL7fmmJBQtc=);
+}
+
+.nineteen{
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTg0NjE4NzQ2NDMzMDUzODE2/top-10-most-beautiful-fish-in-the-world.jpg);
+}
+
+.twenty{
+    background-image: url(https://media.istockphoto.com/photos/adorable-ferret-staring-into-camera-picture-id467883585?k=20&m=467883585&s=612x612&w=0&h=n_ESyHjF6nDVzSU0gCLA2CDv_h3dLLvZTGMELvUfi24=);
+}
+
+.twenty-one{
+    background-image: url(https://i.pinimg.com/736x/3c/c9/9a/3cc99a63f0f40edd9b114c04d8cfdf16.jpg);
+}
+

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        
+        <title>Index Website</title>
+
+        <link href="style.css" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/510955d83d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <i class="fa-brands fa-linkedin"></i>
+
+        <div class="girls"> 
+            <h1 style="background-color: blue; color:white; font-size: 90px; font-weight:900">Index Html</h1>
+            <p style="color: white; background-color: red; font-size: 20px; font-weight:800">The Bemore Summer Bootcamp<br />Teaches the girls to be confident<br />independent and to attain their maximum potentials</p>
+            <button style="height: 40px; background-color:rgb(71, 71, 250); border: 0px; border-radius: 5px;"><a style="color: white; font-weight: bold;" href="https://google.com" target="_blank">Go to Google</a></button><br />
+            <img src="Images/A White Dog.jfif" alt="A White Dog" title="I got this dog from google" style="border: 10px solid white; border-radius: 30px;"/><br />
+        </div>
+
+        <!--This iframe is for embedding youtube videos-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KL9qp0FNEzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+        <video height="315" width="560" autoplay muted controls style="margin-bottom: 20px;">
+            <source src="Videos/Simi-Duduke-Official-Video.mp4" type="video/mp4">
+            <source src="Simi-Duduke-Official-Video.ogg" type="video/ogg">
+        </video><br />
+        
+        <div class="boys">
+            <form class="Thanks">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label>Title</label>
+                    <select style="height: 50px; width:10%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; ">
+                        <option>Choose Title</option>
+                        <option>Mr</option>
+                        <option>Mrs</option>
+                        <option>Miss</option>
+                    </select><br />
+                    <label>First Name</label><br/>
+                    <input type="text" placeholder="Enter your first name" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "> <br />
+                    <label>Middle Name</label><br />
+                    <input type="text" placeholder="Enter your middle name" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Last Name</label><br />
+                    <input type="text" placeholder="Enter your last name" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Date of Birth</label><br />
+                    <input type="date" placeholder="dd/mm/yyyy" style="height: 50px; width:10%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Gender</label><br />
+                    <input type="radio" value="Female" />Female<br />
+                    <input type="radio" value="Male" style="margin-bottom: 20px;" />Male<br />
+                </fieldset><br />
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label>Phone Number</label><br />
+                    <input type="number" placeholder="Enter your phone number" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Email Address</label><br />
+                    <input type="email" placeholder="example:yourname@gmail.com" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Home Address</label><br />
+                    <input type="text" placeholder="Enter your home address" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>City</label><br />
+                    <input type="text" placeholder="Enter your city" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "/><br />
+                    <label>Country</label><br />
+                    <select style="height: 50px; width:20%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; ">
+                        <option>Choose Country</option>
+                        <option>Algeria</option>
+                        <option>China</option>
+                        <option>Germany</option>
+                        <option>Liberia</option>
+                        <option>Nigeria</option>
+                        <option>Peru</option>
+                        <option>Senegal</option>
+                        <option>Uganda</option>
+                        <option>Zimbabwe</option>
+                    </select>
+                </fieldset><br />
+                <fieldset>
+                    <legend>Next of Kin Details</legend>
+                    <label>Full Name</label><br />
+                    <input type="text" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Phone number</label><br />
+                    <input type="number" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Relationship</label><br />
+                    <input type="text" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Email Address</label><br />
+                    <input type="email" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Home Address</label><br />
+                    <input type="text" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                </fieldset><br />
+                <fieldset>
+                    <legend>Educational Background</legend>
+                    <label>Name of Institution</label><br />
+                    <input type="text" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Location/Country</label><br />
+                    <input type="text" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Field of Study</label><br />
+                    <input type="text" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Date of Completion</label><br />
+                    <input type="date" style="height: 50px; width:10%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br />
+                    <label>Qualification</label><br />
+                    <select style="height: 50px; width:20%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; ">
+                        <option></option>
+                        <option>Master's Degree</option>
+                        <option>Graduate Diploma</option>
+                        <option>professional Degree</option>
+                        <option>postgraduate Diploma</option>
+                        <option>Bachelor of Education</option>
+                        <option>PhD</option>
+                        <option>SSCE</option>
+                        <option>First School Leaving Certificate</option>
+                    </select>
+                </fieldset><br />
+                <p>Password</p>
+                <input type="password" placeholder="**********************" style="height: 50px; width:50%; border: 5px solid purple; border-radius: 5px; margin-bottom: 10px; "><br/>
+                <input type="checkbox" style="margin-bottom: 10px;"/>Agree to Terms and Conditions<br />
+                <input type="submit" style="height: 50px; width:50%; border: 0px; background-color: purple; color: white; border-radius: 5px; margin-bottom: 10px; ">
+            </form>
+        </div><br />
+        Ordered List
+        <ol>
+            <li>ICT</li>
+            <li>Solar</li>
+            <li>Health Talk</li>
+            <li>Leadership</li>
+        </ol>
+        Unordered List
+        <ul>
+            <li>ICT</li>
+            <li>Solar</li>
+            <li>Health Talk</li>
+            <li>Leadership</li>
+        </ul>
+        Description List
+        <dl>
+            <dt>ICT</dt>
+            <dd>The girls are taught to operate their personal computers</dd>
+            <dd>The girls are taught to make presentations</dd>
+            <dt>Solar</dt>
+            <dd>the girls are taught to install solar panels</dd>
+            <dd>The girls are taught to make solar ovens</dd>
+            <dt>Health Talk</dt>
+            <dd>The girls are taught about menstrual hygiene</dd>
+            <dd>The girls are taught about Breast and Cervical Cancer</dd>
+            <dt>Leadership</dt>
+            <dd>The girls are taught the concept of effective Leadership</dd>
+            <dd>The girls are instructed to make a presentation on what they understand by leadership</dd>
+        </dl>
+
+        <div class="Gender">
+            <div class="first"><h1>WE</h1></div>
+
+            <div class="second"><h1>ARE</h1></div>
+
+            <div class="third"><h1>THE</h1></div>
+
+            <div class="fourth"><h1>BOSS</h1></div>
+
+           <div class="fifth"><h1>LADIES</h1></div> 
+        </div>
+        
+
+        <table>
+            <tr>
+                <th>Full Name</th>
+                <th>Enail Address</th>
+                <th>Phone Number</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+            </tr>
+            <tr>
+                <td>Ikeri Priscilla Oluchukwu</td>
+                <td>ikeripriscilla94@gmail.com</td>
+                <td>09074549591</td>
+                <td>Ikeri Christian Akujobi</td>
+                <td>ikerichristian@gmail.com</td>
+                <td>08033961744</td>
+            </tr>
+            <tr>
+                <td>Ikeri Priscilla Oluchukwu</td>
+                <td>ikeripriscilla94@gmail.com</td>
+                <td>09074549591</td>
+                <td>Ikeri Christian Akujobi</td>
+                <td>ikerichristian@gmail.com</td>
+                <td>08033961744</td>
+            </tr>
+        </table>
+        <form class="welcome">
+            <h1>Welcome!</h1>
+            <p>We are glad to have you here.</p>
+            <div class="field"> <input type="text" placeholder="Full Name" /></div>
+            <div class="field"><input type="email" placeholder="Email"/></div>
+            <div class="field"><input type="text" placeholder="Job Role"/></div>
+            <div class="field"><input type="password" placeholder="Enter Password"/></div>
+            <div class="field"><input type="password" placeholder="Confirm Password" /></div>
+            <button>Get Started</button>
+        </form>
+
+        <div class="anthem">
+            <h3><span>T</span>he <span>B</span>emore <span>A</span>nthem</h3>
+            <p>Bemore has come to stay,<br />for the betterment of the girl-child.<br />To train young girls to build,<br />in Nigeria our Country, and the entire world.<br/>In ICT, Solar, to bridge gender parity,<br />in science and technology, and other basic skills.<br/>Bemore Bemore Bemore!<br /> Bemore Bemore Bemore!!<br />Bemore has come to stay!!!.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body{margin: 0;
+    font-family: "Poppins",sans-serif;}
+
+
+.Heros {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/123997.jpg);
+    background-size: cover;
+    background-position: 30% 40%;
+    color: #ffffff;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.Heros .China{
+    margin-top: 150px;
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+header .logo h1{
+    font-size: 20px;
+}
+
+header .nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+
+header .nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+header .nav li a:hover{
+    color: #ff0000;
+}
+
+
+.Heros button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav .but{
+    color: #000;
+}
+
+.Heros button:hover{
+    background-color: antiquewhite;
+}
+
+.Heros h1 {
+    margin: 0;
+    font-size: 100px;
+}
+
+.Heros p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.cars {
+    height: 500px;
+    width: 100%;
+    border: 1px solid red;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cars h1{
+    text-align: center;
+}
+
+.cars .type {
+    width: 30%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 10px solid firebrick;
+}
+
+.type:first-child{
+    border: 10px solid #ff0000;
+}
+
+.first-car{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/5dd822e9e0af7b0006b20785/0x0.jpg?format=jpg&crop=2391,1345,x381,y420,safe&width=1200);
+}
+
+.second-car{
+    background-image: url(https://images.unsplash.com/photo-1617195920950-1145bf9a9c72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2hpdGUlMjBjYXJzfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+}
+
+.third-car{
+    background-image: url(https://media.istockphoto.com/photos/red-generic-sedan-car-isolated-on-white-background-3d-illustration-picture-id1189903200?k=20&m=1189903200&s=612x612&w=0&h=L2bus_XVwK5_yXI08X6RaprdFKF1U9YjpN_pVYPgS0o=);
+}
+
+.position-fixed{
+    width: 10%;
+    height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000000;
+}
+
+.position-absolute main{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.position-absolute{
+    height: 300px;
+    width: 30%;
+    background-color: rgb(230, 45, 131);
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 0 20px #000000;
+    position: absolute;
+}
+
+.sub{
+    background-color: #0000ff;
+    left: 100px;
+}
+
+.sub-1{
+    background-color: #ff0000;
+    left: 50px;
+}
+
+.sub-2{
+    background-color: #00ff00;
+}
+
+.sub-2:hover{
+    background-color: #000000;
+    left: 30px;
+    border: 20px solid white;
+    cursor: pointer;
+}
