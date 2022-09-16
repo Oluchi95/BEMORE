@@ -125,29 +125,4 @@ th {
      height: 50px;
 }
 
-h3{
-     text-align: center;
-     margin-bottom: 0;
-     padding-bottom: 0;
-     text-decoration: underline;
- }
- 
- h3 span{
-     color: rgb(180, 4, 4);
-     font-size: 31px;
-     font-weight: bold;
- }
-
-.anthem{
-     width: 25%;
-     height:345px;
-     background-color: rgb(128, 128, 128);
-     color: black;
-     position: fixed;
-     right: 50px;
-     bottom: 50px;
-     border-radius: 10px;
-     box-shadow: 0 0 20px black;
-     padding: 0;
- }
 
